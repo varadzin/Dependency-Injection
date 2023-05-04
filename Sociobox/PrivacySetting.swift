@@ -34,7 +34,7 @@ enum PrivacySetting: String, CaseIterable {
   case photos = "Who can see my photos",
   friends = "Who can see my friends list",
   feed = "Who can see my feed",
-  videoCall = "Who can video call me",
-  message = "Anybody can message me"
+  videoCall = "Nobody can video call me",
+  message = "Nobody can message me"
   
 }
